@@ -51,7 +51,7 @@ bool isPointInsideTriangle(const Vec2f &point, const Vec2f &prev, const Vec2f &c
     and (prev.x, prev.y), (current.x, current.y), and (next.x, next.y) are the coordinates of the three vertices (prev, current, and next),
     then the point (x, y) can be expressed as follows:
 
-    point.x = alpha * prev.x + beta * current.y + gamma * next.x
+    point.x = alpha * prev.x + beta * current.x + gamma * next.x
     point.y = alpha * prev.y + beta * current.y + gamma * next.y
 
     That means that if all the barycentric coordinates of the point are positive, the point is inside the triangle
